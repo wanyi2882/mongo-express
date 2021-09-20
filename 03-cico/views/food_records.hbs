@@ -1,0 +1,31 @@
+{{#extends 'base'}}
+
+{{#block 'content'}}
+<h1>All Food Records</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Calories</th>
+            <th>Tags</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        {{#each records}}
+        <tr>
+            <td>{{this.foodRecordName}}</td>
+            <td>{{this.calories}}</td>
+            <td>{{this.tags}}</td>
+
+        </tr>
+        {{/each}}
+
+    </tbody>
+
+</table>
+
+{{/block}}
+
+{{/extends}}
