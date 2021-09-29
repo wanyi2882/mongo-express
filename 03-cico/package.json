@@ -1,7 +1,6 @@
 {
   "name": "03-cico",
   "version": "1.0.0",
-  "description": "",
   "main": "MongoUtil.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +13,9 @@
     "handlebars-helpers": "^0.10.0",
     "hbs": "^4.1.2",
     "mongodb": "^4.1.2",
-    "nodemon": "^2.0.12",
+    "nodemon": "^2.0.13",
     "wax-on": "^1.2.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
